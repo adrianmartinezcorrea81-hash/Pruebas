@@ -8,12 +8,12 @@ import threading
 from datetime import datetime, timezone
 
 
-URL_OBJETIVO = "https://delego-fitness.vercel.app/cuestionario"
+URL_OBJETIVO = ""
 PETICIONES_TOTALES = 300       
 HILOS_SIMULTANEOS = 50         
 
 
-NEXT_ACTION_ID = "40dfd125b24342d7e28de6821a03c99c8f45327c2d"
+NEXT_ACTION_ID = ""
 
 sesion = requests.Session()
 lock = threading.Lock()
