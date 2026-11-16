@@ -1,16 +1,16 @@
-
+```markdown
 # Load Tester para Formularios (Next.js Server Actions)
 
-Este script de Python realiza pruebas de carga controladas y legítimas contra formularios desarrollados con Server Actions de Next.js. Simula envíos concurrentes para comprobar si el servidor y la base de datos soportan picos de tráfico y si las protecciones contra spam (Rate Limit / 429) están funcionando correctamente.
+Este script de Python realiza pruebas de carga controladas y legítimas contra formularios desarrollados con Server Actions de Next.js[cite: 3]. Simula envíos concurrentes para comprobar si el servidor y la base de datos soportan picos de tráfico y si las protecciones contra spam (Rate Limit / 429) están funcionando correctamente.
 
 ## 📋 Requisitos Previos
 
-Necesitas tener Python instalado. Antes de ejecutar el script, instala la única dependencia necesaria]:
+Necesitas tener Python instalado. Antes de ejecutar el script, instala la única dependencia necesaria:
 
 ```bash
 pip install requests
 
-
+```
 
 ## 🔍 Paso 1: Cómo obtener el `NEXT_ACTION_ID` (¡Importante!)
 
