@@ -23,7 +23,7 @@ rate_limited = 0
 
 
 
-EMAIL_DE_VERIFICACION = "amazonprimeparalel@gmail.com"
+EMAIL_DE_VERIFICACION = ""
 
 
 def generar_payload(es_verificacion=False):
