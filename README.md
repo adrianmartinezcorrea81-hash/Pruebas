@@ -7,8 +7,7 @@ Este script de Python realiza pruebas de carga controladas y legítimas contra f
 
 Necesitas tener Python instalado. Antes de ejecutar el script, instala la única dependencia necesaria]:
 
-bash: 
-
+```bash
 pip install requests
 
 
